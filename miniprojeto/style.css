@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(35, 33, 32);
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;    
+    color: azure;
+    text-align: center;
+}
+div img {
+    margin: 0 auto;
+    width: 500px;
+}
+iframe {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+}
+.container {
+    text-align: center;
+}

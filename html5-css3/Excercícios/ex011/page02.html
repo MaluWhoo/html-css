@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens 2</title>
+</head>
+<body>
+    <h1>Testando</h1>
+    <p>Testando fazer a chopagem com outra foto.</p>
+    <picture>
+        <source media="(max-width: 500px)" srcset="imagens/pequena.jpg" type="image/jpg">
+        <source media="(max-width: 900px)" srcset="imagens/media.jpg" type="image/jpg">
+        <img src="imagens/grande.jpg" alt="grande">
+    </picture>
+    <p>Voltar para a <a href="index.html">primeira página</a></p>
+
+    <h1>Repoduzindo Aúdio</h1>
+    <p>Apredendo na prática a como reproduzir aúdio em HTML5.</p>
+    <audio preload="auto" autoplay controls>
+        <source src="timmaia.mp3" type="audio/mpeg">
+        <source src="timmaia.ogg" type="audio/ogg">
+        <source src="timmaia.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue repoduzir o audio.</p>
+    </audio>
+</body>
+</html>
